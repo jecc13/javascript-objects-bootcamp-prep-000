@@ -1,2 +1,2 @@
-var playlist = { "Ed Sheeran": "Shape of You" };
+var playlist = { "Ed Sheeran": "Shape of You",  };
 
