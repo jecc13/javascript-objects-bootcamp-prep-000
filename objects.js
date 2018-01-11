@@ -4,5 +4,8 @@ function updatePlaylist(playlist, artist, song) {
   return (Object.assign({}, playlist, {[artist] : [song]}));
 }
 
-recipe = { eggs: 3 }
+  return Object.assign({}, obj, { [key]: value })
+
+
+
 
