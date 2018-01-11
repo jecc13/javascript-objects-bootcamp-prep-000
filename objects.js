@@ -2,7 +2,7 @@ var playlist = { 'Soha': 'Mil Pasos'};
 
 function updatePlaylist(playlist, artist, song) {
   // non destructively add artist:song to object "playlist"
-  return (Object.assign({}, playlist, {['artist'] : song}));
+  return (Object.assign({}, playlist, {[artist] : song}));
 }
 
 function removeFromPlaylist(playlist, artist) {
