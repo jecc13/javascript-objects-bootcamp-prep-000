@@ -5,7 +5,9 @@ function updatePlaylist(playlist, artist, song) {
   return (Object.assign({}, playlist, {[artist] : [song]}));
 }
 
-
+function removeFromPlaylist(playlist, artist) {
+  
+}
 
 // reference parking lot 
 //non destructively add key-value pair to object 
